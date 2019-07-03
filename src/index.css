@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(./components/img/marte.jpg);
+  background-attachment: fixed;
+  overflow-x: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  -webkit-font-smoothing: antialiased !important;
+
+}
