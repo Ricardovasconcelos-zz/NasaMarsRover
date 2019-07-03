@@ -1,0 +1,26 @@
+.Footer-config{
+    background: #3a3939;
+    height: 100%;
+}
+.Footer-config p{
+    text-align: center;
+    font-size: 19px;
+    padding: 30px 0 30px 0;
+    color: rgb(255, 255, 255)
+}
+.Footer-config a{
+    text-decoration: none
+}
+.Footer-config a:link{
+    color: rgb(255, 255, 255)
+}
+.Footer-config a:visited{
+    color: rgb(255, 255, 255)
+}
+.Footer-config a:hover{
+    color: rgb(236, 235, 235);
+    text-decoration: none
+}
+.Footer-config a:active{
+    color: rgb(202, 199, 199)
+}

@@ -1,0 +1,25 @@
+.Info-config{
+
+    background: #f7f7f7;
+    padding-bottom: 35px;
+}
+.Info-config .description{
+    padding-top:30px;
+}
+.Info-config .description h2{
+  font-weight: bold;
+  color: #2c2c2c;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin:15px 0 25px 0
+}
+.Info-config .description p{
+    color: #2c2c2c;
+    font-family: Lato, sans-serif;
+    text-align: justify
+  }
+
+.Info-config .img-curiosity{
+    margin-top: 40px;
+    text-align: center;
+}
