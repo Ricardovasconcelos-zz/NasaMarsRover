@@ -1,14 +1,14 @@
-.product-list{
+.infoRover-list{
     padding-top: 50px;
     text-align: center;
     width: 100%;
     background: #ffffff;
     
 }
-.product-list .Content .title-content{
+.infoRover-list .Content .title-content{
     font-weight: bold
 }
-.product-list .Content{
+.infoRover-list .Content{
     width: 18rem;
     margin: 10px 30px 50px;
     text-align: left;
@@ -16,7 +16,7 @@
 
     box-shadow: 1px 5px 10px #cccccc;
 }
-.product-list .Content:hover{
+.infoRover-list .Content:hover{
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -25,23 +25,23 @@
     transition:  all 0.4s linear;
     opacity: 0.9;
 }
-.product-list .Content .description-content{
+.infoRover-list .Content .description-content{
     color: #858180;
     
     
 }
-.product-list .Content .button{
+.infoRover-list .Content .button{
     margin: 10px 0 10px 35px;
 
 }
 
-.product-list .actions{
+.infoRover-list .actions{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.product-list .actions button{
+.infoRover-list .actions button{
     padding: 10px;
     border-radius: 5px;
     border: 0;
@@ -51,6 +51,6 @@
     font-weight: bold;
     cursor: default
 }
-.product-list .actions button:hover{
+.infoRover-list .actions button:hover{
     opacity: 0.7;
 }

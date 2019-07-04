@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 import api from '../../services/api'
 import './Main.css'
 
-import { Card, Container, Button } from 'react-bootstrap'
+import { Card, Button } from 'react-bootstrap'
 
 class Main extends Component {
 
     state = {
-        products: [],
+        infoRover: [],
     }
 
     componentDidMount() {
@@ -17,19 +17,19 @@ class Main extends Component {
 
     loadProducts = async () => {
         const response = await api.get('')
-        console.log(response.data.photos)
+        //console.log(response.data.photos)
 
         this.setState({
-            products: response.data.photos
+            infoRover: response.data.photos
         })
     }
     render() {
 
-        const { products } = this.state;
+        const { infoRover } = this.state;
 
         return (
-            <div className="product-list">
-                {products.map(item => (
+            <div className="infoRover-list">
+                {infoRover.map(item => (
 
                     <Card className="Content">
                         <Card.Img variant="top" src={item.img_src} />
